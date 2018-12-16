@@ -1,0 +1,40 @@
+.container{
+height: 93vh;
+display:flex;
+grid-template-columns: 1fr;
+width: 100%;
+}
+.user-container{
+width: 50%;
+grid-column: 1/2;
+align-items: center;
+margin-left: 20px
+}
+.login-container{
+width: 50%;
+display: block;
+grid-column: 2/2;
+padding: 10px;
+}
+
+ button{
+  width: 25%;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: gray;
+  padding: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+input{
+  border: 1px solid var(--green-color);
+  background-color: #f2f2f2;
+}
+img{
+  width: 50px;
+}
+ 
+  
+  
